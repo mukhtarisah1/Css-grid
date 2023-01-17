@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="munu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css"
+                integrity="sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ==" 
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <div class="container">
+        <nav class="main-nav">
+            <img class="logo" src="images/logo.png" alt="microsoft">
+            <ul class="main-menu show">
+                <li><a href="#">Office</a></li>
+                <li><a href="#">Windows</a></li>
+                <li><a href="#">Xbox</a></li>
+                <li><a href="#">surface</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+            <ul class="right-menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+
+
+            </ul>
+        </nav>
+    </div>
+    <script>
+        document.querySelector('.menu-btn').addEventListener
+        ('click', ()=>document.querySelector('.main-menu').classList.toggle('show'))
+    </script>
+</body>
+</html>
